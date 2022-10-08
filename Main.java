@@ -1,4 +1,4 @@
-package GissaNummret;
+package gissaNummret;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class Main {
 				numberOfGuesses++;
 			}
 			while(number != random);
-			System.out.println("Congratulations! Your number was correct.\nThe number of guesses is: " + numberOfGuesses + "\n\nA new round has begun!");
+			System.out.println("Congratulations! Your number was correct.\nThe number of guesses is: " + numberOfGuesses + "\n----------------------------------------------------------------------\nA new round has begun!");
 			numberOfGuesses = 0;
 		}
 
